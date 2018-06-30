@@ -1,0 +1,298 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.mainDiv{
+	position: relative;
+}
+
+.mainSidebar{
+	width: 250px;
+	min-height: 100%;
+	background-color: #353541;
+	position: absolute;
+}
+
+.sidebarImg{
+	background-image: url("imgs/layer1.png");
+	width: 100%;
+	height: 250px;
+}
+
+.sidebarInfo{
+	color: white;
+	padding-top: 160px;
+	padding-left: 20px;
+}
+
+.sidebarH1{
+	margin: 0;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.sideUl{
+	list-style: none;
+	padding-left: 0;
+}
+.sideLi{
+	color: white ;
+	font-size: 20px;
+	padding-left: 20px;
+	margin: 10px 0;
+	
+}
+.sideLi a{
+	color:white;
+}
+.sideLi a:hover {
+	color:gray;
+}
+
+.sideHr{
+	border:1px #30303c solid;
+}
+
+.mainContent{
+	margin-top: 0;
+	margin-left: 250px;
+}
+
+.upperDiv{
+	text-align: center;
+	padding:100px 0;
+	background-color:#353541; 
+}
+
+.upperH1{
+	margin: 0;
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.upperP{
+	color: #b8b8bd;
+	font-size: 13px;
+}
+
+.upperBtn{
+	margin: 30px 0 ;
+	color: #fff;
+    background-color: #fb6470;
+    border:0 ;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+.divsPosition{
+	margin: 100px 100px;
+}
+
+.pd{
+	color: #656565;
+	padding-right: 90px;
+}
+
+.titleDivs{
+	color: #3e3e3e;
+	font-weight: 500;
+	line-height: 0.4;
+}
+.pinkHr{
+	border:1px #fb6470 solid;
+	width: 80px;
+	margin-left: 0;
+}
+
+.secFirst{
+	padding: 10px 0;
+	background: #f9f9f9;
+	margin-top: 50px;
+}
+
+.secFirstT{
+	font-weight: bolder;
+	font-size: 18px;
+	color: #3e3e3e;
+	text-shadow:0.5px 0.5px  #8b8b8b;
+}
+.secFirstC{
+font-weight: bold;
+	font-size: 18px;
+	color: #3e3e3e;
+
+}
+
+.secFirstHr{
+	border:0.5px #e5e5e5 solid; 
+}
+
+.grayDiv{
+	width: 430px;
+	height: 500px;
+	background-color: #353541;
+}
+
+
+.timeline ul {
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 1px;
+  margin: 0 auto;
+  background: #000;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fb6470;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #353541;
+  	border-radius: 10px;
+
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #353541 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #353541;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.spanT{
+	color: white;
+	font-weight:500;
+	font-size: 18px;
+}
+
+.spanC{
+	color: #d7d7d9;
+		font-weight:400;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.h4Color{
+	color: #fb6470;	
+}
+
+.skills{
+	background-color: #1d1d24;
+	padding: 60px 100px;
+}
+
+#white{
+	color: white;
+}
+.left{
+	margin: 50px 0 0 0;
+}
+.progressB {
+    height: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    width: 400px;
+    position: inherit;
+}
+.progressBar {
+    float: left;
+    width: 0;
+    height: 100%;
+    /* font-size: 12px; */
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #fb6470;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+    position: inherit;
+}
+
+.barTitle{
+	color: #dfdbdb;
+	font-weight: 400;
+	font-size: 15px;
+	margin: 20px 0 ;
+}
+
+.text{
+	margin: 10px 0;
+	width: 80%;
+}
+
+#L{
+	padding-left: 0;
+}
+
+#lastBtn{
+	border-radius: 0;
+	margin-left: 43%;
+
+}
+
+#divider{
+	padding-left: 30px;
+}
+
+.h4{
+	margin-left: 50px;
+}
+
+.spanL{
+	margin-left: 20px;
+position: absolute;
+}
