@@ -22,11 +22,12 @@ body{
 }
 
 .sidebarInfo{
-	color: #d37980;
 	margin: 20px;
+	color:white;
 }
 
 .sidebarH1{
+	color: #d37980;
 	margin: 0;
 	font-size: 30px;
 	font-weight: 400;
